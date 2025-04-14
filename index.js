@@ -10,11 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const aboutContent = document.querySelector('.about-content');
     const nominationContent = document.querySelector('.nomination-content');
     const ctaContent = document.querySelector('.cta-content');
-    // Ensure the header background color is styled via CSS
-    const headerElement = document.querySelector('.header');
-    if (headerElement) {
-        headerElement.style.backgroundColor = '#your-preferred-color'; // Use the color you want
-    }
+    
     // Animation options
     const observerOptions = {
         root: null, // viewport is the root
