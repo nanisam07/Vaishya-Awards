@@ -1,0 +1,11 @@
+{
+    "name": "community-awards",
+    "version": "1.0.0",
+    "description": "Vaishya Excellence Awards website",
+    "scripts": {
+      "start": "serve -s ."
+    },
+    "dependencies": {
+      "serve": "^14.2.1"
+    }
+  }
